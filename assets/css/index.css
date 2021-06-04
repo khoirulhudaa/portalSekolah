@@ -84,7 +84,7 @@ section {
 .section1 {
     height: 570px;
     color: white;
-    background-color: rgb(108, 0, 158);
+    background-color: rgb(66, 0, 97);
 }
 
 .section1 .row {
@@ -252,7 +252,7 @@ section {
     align-items: center;
     width: 100vw;
     height: 340px;
-    background-color: rgb(108, 0, 158);
+    background-color: rgb(66, 0, 97);
     color: white;
     padding: 30px;
 }
@@ -352,6 +352,7 @@ section {
 
     .section1 {
         height: max-content;
+        background-color: rgb(66, 0, 97);
         text-align: center;
     }
 
@@ -430,7 +431,7 @@ section {
         align-items: center;
         width: 100vw;
         height: max-content;
-        background-color: rgb(108, 0, 158);
+        background-color: rgb(66, 0, 97);
         color: white;
         padding: 20px;
     }
@@ -502,7 +503,7 @@ section {
     .section1 {
         height: 530px;
         color: white;
-        background-color: rgb(108, 0, 158);
+        background-color: rgb(66, 0, 97);
     }
 
     .section1 .row {
