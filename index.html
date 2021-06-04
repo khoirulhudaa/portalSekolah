@@ -215,9 +215,19 @@
                 }else if(window.pageYOffset <= 520) {
                   document.getElementById('menu2').classList.add('menus');
             }
-            })
-          }else if(window.innerWidth <= 752) {
-            window.addEventListener('scroll', () => {
+          })
+        }else if(window.innerWidth <= 752) {
+          window.addEventListener('scroll', () => {
+              if(window.pageYOffset >= 450) {
+                  document.getElementById('menu1').classList.remove('menus');
+                }else if(window.pageYOffset <= 450) {
+                  document.getElementById('menu1').classList.add('menus');
+                }
+                if(window.pageYOffset >= 520) {
+                    document.getElementById('menu2').classList.remove('menus');
+                  }else if(window.pageYOffset <= 520) {
+                    document.getElementById('menu2').classList.add('menus');
+              }
         })
 
       }
